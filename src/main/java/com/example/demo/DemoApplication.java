@@ -29,7 +29,7 @@ public class DemoApplication {
 		Comment comment = new Comment();
 		comment.setAuthor("Laurentiu");
 		comment.setText("Demo comment");
-
+		
 		commentService.publishComment(comment);
 	}
 
