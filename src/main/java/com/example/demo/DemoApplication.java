@@ -28,7 +28,7 @@ public class DemoApplication {
 		CommentService s1 = context.getBean(CommentService.class);
 		UserService s2 = context.getBean(UserService.class);
 
-		System.out.println(s1.getCommentRepository()==s2.getCommentRepository());
+
 	}
 
 }

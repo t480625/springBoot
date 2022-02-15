@@ -18,7 +18,11 @@ public class LogAspect {
         System.out.println("Invocation of method" + jp.getSignature() );
     }
 
-    public void master(){
+    //comitte tov
+    public void feature_2() {
+        System.out.println();
+    }
+         public void master(){
         System.out.println("master");
     }
 
