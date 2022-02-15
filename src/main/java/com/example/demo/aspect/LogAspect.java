@@ -18,8 +18,8 @@ public class LogAspect {
         System.out.println("Invocation of method" + jp.getSignature() );
     }
 
-    public void test(){
-        System.out.println();
+    public void master(){
+        System.out.println("master");
     }
 
 }
