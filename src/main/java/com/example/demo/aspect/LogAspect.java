@@ -18,7 +18,7 @@ public class LogAspect {
         System.out.println("Invocation of method" + jp.getSignature() );
     }
 
-    public void test(){
+    public void feature_2(){
         System.out.println();
     }
 
