@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-//@ComponentScan(basePackages="com.example.demo")
+@ComponentScan(basePackages="com.example.demo")
 public class Config {
 
 //    @Bean
@@ -39,17 +39,17 @@ public class Config {
 ////        p.setParrot(parrot2);
 //        return p;
 //    }
-    @Bean
-    public CommentRepository commentRepository(){
-        return  new DBCommentRepository();
-    }
-    @Bean
-    public CommentNotificationProxy commentNotificationProxy(){
-        return new EmailCommentNotificationProxy();
-    }
-    @Bean
-    public CommentService commentService() {
-        return new CommentService();
-    }
+//    @Bean
+//    public CommentRepository commentRepository(){
+//        return  new DBCommentRepository();
+//    }
+//    @Bean
+//    public CommentNotificationProxy commentNotificationProxy(){
+//        return new EmailCommentNotificationProxy();
+//    }
+//    @Bean
+//    public CommentService commentService() {
+//        return new CommentService();
+//    }
 
 }

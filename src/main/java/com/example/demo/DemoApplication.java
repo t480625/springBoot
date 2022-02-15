@@ -8,6 +8,7 @@ import com.example.demo.proxies.EmailCommentNotificationProxy;
 import com.example.demo.reositories.CommentRepository;
 import com.example.demo.reositories.DBCommentRepository;
 import com.example.demo.services.CommentService;
+import com.example.demo.services.UserService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -22,15 +23,12 @@ public class DemoApplication {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext
 				(Config.class);
 
+ //
 
+		CommentService s1 = context.getBean(CommentService.class);
+		UserService s2 = context.getBean(UserService.class);
 
-		CommentService commentService = context.getBean(CommentService.class);
-
-		Comment comment = new Comment();
-		comment.setAuthor("Laurentiu");
-		comment.setText("Demo comment");
-
-		commentService.publishComment(comment);
+		System.out.println(s1.getCommentRepository()==s2.getCommentRepository());
 	}
 
 }
