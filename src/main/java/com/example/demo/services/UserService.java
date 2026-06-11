@@ -16,9 +16,5 @@ public class UserService {
 //        System.out.println("getByName");
     }
 
-    public void befoRevert(){
-        System.out.println("getById");
-    }
-
 
 }
