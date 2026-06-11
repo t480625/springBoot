@@ -13,7 +13,7 @@ public class UserService {
     }
 
     public void getByName(){
-        System.out.println("getByName");
+//        System.out.println("getByName");
     }
 
 
