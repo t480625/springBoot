@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     public void getById(){
-//        System.out.println("getById");
+        System.out.println("getById");
     }
 
     public void getByName(){
