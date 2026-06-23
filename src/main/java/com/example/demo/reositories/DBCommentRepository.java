@@ -11,5 +11,6 @@ import org.springframework.stereotype.Repository;
 public class DBCommentRepository implements  CommentRepository{
     @Override
     public void storeComment(Comment comment) {
-        System.out.println("DBCommentRepository"); }
+        System.out.println("DBCommentRepository");
+        System.out.println("add commit3");}
 }

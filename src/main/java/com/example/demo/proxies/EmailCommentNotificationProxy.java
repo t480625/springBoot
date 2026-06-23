@@ -9,6 +9,7 @@ public class EmailCommentNotificationProxy implements CommentNotificationProxy {
     public void sendComment(Comment comment) {
         System.out.println("Sending notification for comment: "
                 + comment.getText());
+        System.out.println("add commit3");
 
     }
 }
