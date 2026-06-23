@@ -18,6 +18,7 @@ public class Comment {
     }
 
     public void setText(String text) {
+        System.out.println("setText");
         this.text = text;
     }
 }
