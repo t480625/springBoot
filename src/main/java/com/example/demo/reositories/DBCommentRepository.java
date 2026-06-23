@@ -12,5 +12,5 @@ public class DBCommentRepository implements  CommentRepository{
     @Override
     public void storeComment(Comment comment) {
         System.out.println("DBCommentRepository");
-        System.out.println("add commit3");}
+        System.out.println("add commit_feature1");}
 }
