@@ -26,4 +26,8 @@ public class LogAspect {
         System.out.println("master");
     }
 
+    public void test(){
+        System.out.println("TEST");
+    }
+
 }
